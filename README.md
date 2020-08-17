@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./assets/flutter-logo.png" alt="Flutter" /></h1>
+<h1 align="center"><img src="./gitdocs/flutter-logo.png" alt="Flutter" /></h1>
 <p align="center">FlAuth</p>
 <p align="center">
   <a href="https://flutter.dev/">
