@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/constants.dart';
+import 'package:flutter_animations/screens/sprite/weather/sprite_weather_page.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 class HomePage extends StatelessWidget {
+  static const String id = '/home';
+
   void alertFlutter(context) {
     Alert(
       context: context,
@@ -53,9 +56,11 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 RaisedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, SpriteWeatherPage.id);
+                  },
                   child: Text(
-                    'Animation #1',
+                    'Sprite Widget',
                     style: TextStyle(fontSize: 20),
                   ),
                 ),
