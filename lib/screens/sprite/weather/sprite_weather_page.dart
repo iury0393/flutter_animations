@@ -75,7 +75,7 @@ class _SpriteWeatherPageState extends State<SpriteWeatherPage> {
     if (!assetsLoaded) {
       return Scaffold(
         appBar: AppBar(
-          title: Text('Sprite'),
+          title: Text('Sprite Weather'),
         ),
         body: Container(
           decoration: BoxDecoration(

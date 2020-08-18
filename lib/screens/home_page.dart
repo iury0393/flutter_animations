@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/constants.dart';
+import 'package:flutter_animations/screens/sprite/rain/sprite_rain_page.dart';
 import 'package:flutter_animations/screens/sprite/weather/sprite_weather_page.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
@@ -60,7 +61,7 @@ class HomePage extends StatelessWidget {
                     Navigator.pushNamed(context, SpriteWeatherPage.id);
                   },
                   child: Text(
-                    'Sprite Widget',
+                    'Sprite Weather',
                     style: TextStyle(fontSize: 20),
                   ),
                 ),
@@ -68,9 +69,11 @@ class HomePage extends StatelessWidget {
                   width: 20.0,
                 ),
                 RaisedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, SpriteRainPage.id);
+                  },
                   child: Text(
-                    'Animation #2',
+                    'Sprite Rain',
                     style: TextStyle(fontSize: 20),
                   ),
                 ),
