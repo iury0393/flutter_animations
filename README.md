@@ -5,7 +5,8 @@
     <img src="https://img.shields.io/badge/Flutter-CP-blue?style=plastic&logo=Flutter" alt="Flutter" />
   </a>
 </p>
-
+<p align="center"><img src="./gitdocs/anima1.gif" /></p>
+<p align="center"><img src="./gitdocs/anima2.gif" /></p>
 ---
 
 ## About
